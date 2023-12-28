@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+body{
+	font-family: 'Poppins', sans-serif; font-size: 16px; color: #666666; margin: 0;
+
+}
+.top-bar{
+	width: 100%; height: 50px; border-bottom: 1px solid #888888; line-height: 50px;position: absolute; left: 0; top: 0; z-index: 100; color: white
+}
+header{
+	width: 100%; height: 100px; position: absolute; left: 0; top: 50px; z-index: 100
+}
+.logo a{
+	text-decoration: none; font-size: 35px;font-weight: bold; color: #E4D01B
+}
+.logo a:hover{
+	color: darkred
+}
+.logo{
+	padding-top: 20px; 
+}
+.menu{ padding-top: 30px}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-transform: uppercase; text-decoration: none; color: #EBEBEB; border-radius: 5px
+}
+.menu ul li a:hover{
+	background-color: rgba(195,187,187,0.60); color: rgba(197,221,16,1.00); 
+}
+.box-cha{
+	width: 100%; min-height: 600px; position: relative;left: 0; top: 0 
+}
